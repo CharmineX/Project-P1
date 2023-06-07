@@ -1,0 +1,141 @@
+body {
+    background-color: #abffcf;
+}
+
+h1 {
+    color: green;
+    font-size: 2.1em;
+}
+
+p {
+    color: #013d19;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    padding: 13px 5px;
+    overflow: hidden;
+    border: solid 1px black;
+    background-image: linear-gradient(#00ab44, #013d19);
+    width: 10%;
+    box-shadow: 3px 12px 3px rgba(10, 200, 100, 0.6);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #49bf00;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+table {
+    border: solid 3px black;
+    font-size: 20px;
+    background-color: black;
+}
+
+table a {
+    color: green;
+
+}
+
+td {
+    text-align: center;
+    background-color: green;
+    color: yellow;
+    border: solid 1px black;
+}
+
+th {
+    text-align: center;
+    background-color: green;
+    color: yellow;
+    border: solid 1px black;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1em;
+    color: #49bf00;
+}
+
+h6 {
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 1em;
+}
+
+/* Green */
+hr.new1 {
+    border-top: 1px solid green;
+}
+
+/* Yellow lasers */
+hr.new2 {
+    border: 2px dashed yellow;
+}
+
+/* Dotted blue */
+hr.new3 {
+    border-top: 1px dotted blue;
+}
+
+/* Big Green */
+hr.new4 {
+    border: 3px solid green;
+}
+
+/* Doctor Large's Green beam */
+hr.new5 {
+    border: 10px solid green;
+    border-radius: 5px;
+}
+
+/* Lime lasers */
+hr.new6 {
+    border: 2px dashed lime;
+
+}
+
+div a {
+    color: green;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    /* Height of the footer */
+    background-color: #000;
+    color: #fff;
+}
+
+#footer p {
+    color: white;
+    text-align: center;
+}
